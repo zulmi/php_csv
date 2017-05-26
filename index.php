@@ -41,7 +41,7 @@
 
         // let's paginate data from an array...
         $data = getArray();
-		$header = array_shift($data);print_r($data);
+		$header = array_shift($data);echo "tes";
         // how many records should be displayed on a page?
         $records_per_page = 10;
 
